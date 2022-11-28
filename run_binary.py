@@ -55,8 +55,8 @@ class CheckKeys:
 
         stream.close()
 
-    def check(self):
-        for i, value in self.plaintext:
+    def check(self) -> None:
+        for i, value in enumerate(self.plaintext):
             print(f"[STARTED]    Current step: {i}/{len(value)}")
             self.run_file(value)
             i += 1
