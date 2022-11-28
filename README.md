@@ -18,7 +18,7 @@ Create file `output.txt`.
   - Compile code:
     -  `g++ FEAL4-solver.cpp -o FEAL4-solver`
   -  Run the code:
-    -  `./FEAL4-solver`
+     -  `./FEAL4-solver`
   -  Full execution will take about 3 hours (Macbook Air M1)
   -  All steps and found keys will be displayed in terminal with coloured output
   -  `NOTE`: When you get all K0, K4, K5 - delete duplicates. It will reduce amount of keys from 300+ to about 100 for K0, K4, K5.
